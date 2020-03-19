@@ -9,6 +9,10 @@ public:
 class derived : public base {
     public:
     derived()=default;
+    virtual void myfunc()
+    {
+        cout<<"derived myfunc \n";
+    }
 };
 
 int main()
